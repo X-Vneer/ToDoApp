@@ -13,6 +13,7 @@ const RenderedItem = ({ text, id }: { text: string; id: string }) => {
             textTransform: "capitalize",
             fontWeight: "600",
             fontSize: 18,
+            color: "#fafafa",
           }}
         >
           {text}
@@ -55,21 +56,20 @@ export default ItemsList;
 
 const styles = StyleSheet.create({
   listContainer: {
-    paddingTop: 30,
+    paddingTop: 40,
+    marginHorizontal: 30,
     flex: 1,
   },
   renderedItemWrapper: {
     marginBottom: 5,
     flexDirection: "row",
     alignItems: "center",
-    borderBottomColor: "#ccc",
-    borderBottomWidth: 1,
+    backgroundColor: "#E02401",
+    borderRadius: 10,
   },
   deleteButton: {
-    backgroundColor: "#191919",
-    paddingHorizontal: 20,
-    // paddingVertical: 5,
-    borderRadius: 10,
+    paddingHorizontal: 12,
+    borderRadius: 1000,
   },
   textWrapper: {
     padding: 10,

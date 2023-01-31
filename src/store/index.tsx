@@ -16,11 +16,14 @@ const useAppState = create<AppState>((set) => {
     inputText: "",
     inputTextChange: (newText) => set({ inputText: newText }),
     toDoList: [],
-    addItem: (input) =>
+    addItem: (input) => {
+      if (!input) return;
+
       set((state) => ({
         toDoList: [...state.toDoList, { id: uuidv4(), item: input }],
         inputText: "",
-      })),
+      }));
+    },
 
     remoeItem: (input) =>
       set((state) => ({

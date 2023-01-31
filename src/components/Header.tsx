@@ -20,13 +20,12 @@ const styles = StyleSheet.create({
   title: {
     color: "#191919",
     marginTop: 50,
-    marginBottom: 10,
-    fontSize: 26,
+    fontSize: 36,
     fontWeight: "800",
     textAlign: "center",
   },
   hotWord: {
-    fontSize: 28,
+    fontSize: 48,
     color: "#E02401",
   },
 });

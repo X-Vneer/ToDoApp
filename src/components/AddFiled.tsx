@@ -38,27 +38,24 @@ export default AddFiled;
 const styles = StyleSheet.create({
   inputWrapper: {
     marginTop: 20,
-    flexDirection: "row",
-    alignItems: "center",
+    marginHorizontal: 30,
   },
   input: {
-    flex: 1,
     fontSize: 18,
     borderBottomWidth: 2,
     borderBottomColor: "#ccc",
     padding: 10,
     borderRadius: 5,
+    marginBottom: 10,
   },
   button: {
     backgroundColor: "#191919",
-    textAlign: "center",
     paddingHorizontal: 24,
     paddingVertical: 10,
-    marginLeft: 20,
-    borderRadius: 50,
   },
   buttonText: {
     fontWeight: "900",
     color: "white",
+    textAlign: "center",
   },
 });
