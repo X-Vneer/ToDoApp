@@ -13,7 +13,7 @@ const RenderedItem = ({ text, id }: { text: string; id: string }) => {
             textTransform: "capitalize",
             fontWeight: "600",
             fontSize: 18,
-            color: "#fafafa",
+            // color: "#fafafa",
           }}
         >
           {text}
@@ -25,7 +25,7 @@ const RenderedItem = ({ text, id }: { text: string; id: string }) => {
       >
         <Text
           style={{
-            color: "white",
+            // color: "white",
             fontWeight: "600",
             fontSize: 30,
           }}
@@ -56,7 +56,7 @@ export default ItemsList;
 
 const styles = StyleSheet.create({
   listContainer: {
-    paddingTop: 40,
+    paddingTop: 30,
     marginHorizontal: 30,
     flex: 1,
   },
@@ -64,8 +64,10 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#E02401",
-    borderRadius: 10,
+    // backgroundColor: "#E02401",
+    borderWidth: 1,
+    borderColor: "#E02401",
+    borderRadius: 3,
   },
   deleteButton: {
     paddingHorizontal: 12,

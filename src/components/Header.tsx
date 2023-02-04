@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, StatusBar, Platform } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
 const Header = () => {
@@ -15,7 +15,7 @@ export default Header;
 
 const styles = StyleSheet.create({
   header: {
-    marginTop: Platform.OS == "android" ? StatusBar.currentHeight : 0,
+    // marginTop: Platform.OS == "android" ? StatusBar.currentHeight : 0,
   },
   title: {
     color: "#191919",

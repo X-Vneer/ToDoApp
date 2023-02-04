@@ -32,6 +32,6 @@ const styles = StyleSheet.create({
   container: {
     // paddingHorizontal: 10,
     flex: 1,
-    backgroundColor: "#fafafa",
+    // backgroundColor: "#00ff00",
   },
 });
